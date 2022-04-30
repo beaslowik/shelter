@@ -1,0 +1,33 @@
+main {
+    width: 1280px;
+    margin: auto;
+}
+
+main>* {
+    padding: 0 3.13%;
+}
+
+body {
+    background-color: #292929;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* HEADERS, PARAGRAPHS */
+h2 {
+    color: #545454;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2rem;
+}
+
+/* BUTTONS */
+.btn-default {
+    font-family: 'Georgia';
+    font-size: 17px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    background-color: #F1CDB3;
+    color: #292929;
+    padding: 15px 45px;
+    border: 0;
+    border-radius: 100px;
+}
