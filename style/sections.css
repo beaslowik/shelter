@@ -2,8 +2,10 @@
 .header-wrapper {
     height: 908px;
     background-color: #2b2726;
-    background-image: url(/assets/images/start-screen-background.jpg), url(/assets/images/noise_transparent.png);
-    background-size: cover, auto;
+    background-image: url(/assets/images/noise_transparent.png), url(/assets/images/start-screen-background.jpg);
+    background-repeat: repeat, no-repeat;
+    background-size: 12%, cover;
+
 }
 
 .header-wrapper ul {
@@ -11,7 +13,7 @@
     list-style: none;
     display: grid;
     grid-template-columns: repeat(4, auto);
-    gap: 36px;
+    gap: 2.81vw;
 }
 
 .header-wrapper header {
@@ -20,10 +22,11 @@
     align-items: baseline;
 }
 
-.logo-wrapper h1 {
+.logo-wrapper h1 a {
     color: #F1CDB3;
     font-family: 'Gelasio', Georgia, 'Times New Roman', Times, serif;
     line-height: 35px;
+    text-decoration: none;
     letter-spacing: 0.06em;
 }
 
@@ -42,6 +45,18 @@
     font-size: 15px;
 }
 
+.main-menu a:hover {
+    text-shadow: 0px 0px 5px rgb(255, 255, 255);
+}
+
+#about-higlight {
+    padding-bottom: 6px;
+    background-image: linear-gradient(to right, #F1CDB3, #F1CDB3);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: 100% 3px;
+}
+
 .not-only {
     display: flex;
     align-items: center;
@@ -50,13 +65,13 @@
 
 .not-only-text-wrapper {
     position: relative;
-    top: -40px;
+    top: -38px;
 }
 
 .not-only h2 {
     color: white;
-    font-size: 44px;
-    line-height: 140%;
+    font-size: 40px;
+    line-height: 135%;
 }
 
 .not-only p {
@@ -73,4 +88,106 @@
 .not-only img {
     position: relative;
     top: 32px;
+}
+
+/* SECTION ABOUT  */
+.about {
+    background-color: white;
+    padding-top: 80px;
+    padding-bottom: 40px;
+    display: grid;
+    grid-template-columns: 23.44VW 33.59vw;
+    justify-content: center;
+    gap: 9.38vw;
+}
+
+/* SECTION OUR FRIENDS */
+.our-friends {
+    /* height: 877px; */
+    padding-top: 120px;
+    padding-bottom: 100px;
+    background: #F6F6F6;
+    display: grid;
+    justify-content: center;
+    position: relative;
+}
+
+.our-friends h2 {
+    text-align: center;
+}
+
+.our-friends-cards-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 90px;
+    margin-top: 34px;
+    position: relative;
+}
+
+.arrow-left {
+    width: 52px;
+    height: 52px;
+    background-image: url(/assets/icons/button_arrow.png);
+    position: absolute;
+    top: 485px;
+    left: 40px;
+    cursor: pointer;
+}
+
+.arrow-right {
+    width: 52px;
+    height: 52px;
+    background-image: url(/assets/icons/button_arrow-right.png);
+    position: absolute;
+    top: 485px;
+    left: 1190px;
+    cursor: pointer;
+}
+
+.arrow-left:hover,
+.arrow-right:hover {
+    background-color: #FDDCC4;
+    border-radius: 100px;
+}
+
+.our-friends-card {
+    background-color: white;
+    border-radius: 9px;
+    text-align: center;
+}
+
+
+.our-friends-card h3 {
+    font-family: 'Georgia';
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0.06em;
+    color: #545454;
+    margin-top: 26px;
+}
+
+.our-friends-card button {
+    padding: 15px 45px;
+    margin: 8px 0 25px 0;
+    border: 2px solid #F1CDB3;
+    border-radius: 100px;
+    font-family: 'Georgia';
+    font-size: 17px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    color: #292929;
+}
+
+.our-friends-card:hover {
+    cursor: pointer;
+}
+
+.our-friends-card:hover button {
+    background-color: #F1CDB3;
+    cursor: pointer;
+}
+
+.our-friends-bt-get-to-know {
+    place-self: center center;
+    margin: 65px 0 0 0;
 }
