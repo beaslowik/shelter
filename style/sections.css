@@ -1,22 +1,31 @@
-/* HEADER WRAPPER  */
+/* HEADER WRAPPER*/
 .header-wrapper {
-    height: 908px;
     background-color: #2b2726;
     background-image: url(/assets/images/noise_transparent.png), url(/assets/images/start-screen-background.jpg);
     background-repeat: repeat, no-repeat;
     background-size: 12%, cover;
-
 }
 
-.header-wrapper ul {
-    padding-top: 62px;
+/* HEADER */
+.main-menu {
     list-style: none;
     display: grid;
     grid-template-columns: repeat(4, auto);
     gap: 2.81vw;
 }
 
+.main-menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.17vw;
+}
+
+.main-menu a:hover {
+    text-shadow: 0px 0px 5px rgb(255, 255, 255);
+}
+
 .header-wrapper header {
+    padding-top: 40px;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -25,28 +34,18 @@
 .logo-wrapper h1 a {
     color: #F1CDB3;
     font-family: 'Gelasio', Georgia, 'Times New Roman', Times, serif;
-    line-height: 35px;
     text-decoration: none;
+    font-size: 2.5vw;
     letter-spacing: 0.06em;
 }
 
 .logo-wrapper p {
     color: white;
-    font-size: 13px;
+    font-size: 1.02vw;
     letter-spacing: 0.1em;
     position: relative;
-    top: -13px;
-    left: 4px;
-}
-
-.main-menu a {
-    color: white;
-    text-decoration: none;
-    font-size: 15px;
-}
-
-.main-menu a:hover {
-    text-shadow: 0px 0px 5px rgb(255, 255, 255);
+    top: -22px;
+    left: 0.3vh;
 }
 
 #about-higlight {
@@ -57,6 +56,7 @@
     background-size: 100% 3px;
 }
 
+/* SECTION NOT ONLY */
 .not-only {
     display: flex;
     align-items: center;
@@ -65,45 +65,58 @@
 
 .not-only-text-wrapper {
     position: relative;
-    top: -38px;
+    top: -76px;
+    width: 50vw;
 }
 
 .not-only h2 {
     color: white;
-    font-size: 40px;
+    font-size: 3.13vw;
     line-height: 135%;
 }
 
 .not-only p {
-    font-size: 15px;
+    font-size: 1.17vw;
     line-height: 160%;
     color: #CDCDCD;
+    position: relative;
+    top: 10px;
+
 }
 
-.not-only button {
+.not-only-button {
     position: relative;
-    top: 28px;
+    top: 54px;
 }
 
 .not-only img {
-    position: relative;
-    top: 32px;
+    /* width: 50vw; */
+    /* height: auto; */
+    padding-top: 25px;
 }
 
 /* SECTION ABOUT  */
 .about {
     background-color: white;
-    padding-top: 80px;
-    padding-bottom: 40px;
+    padding-top: 75px;
+    padding-bottom: 105px;
     display: grid;
-    grid-template-columns: 23.44VW 33.59vw;
-    justify-content: center;
-    gap: 9.38vw;
+    grid-template-columns: 1fr 1fr;
+}
+
+.about img {
+    justify-self: center;
+    position: relative;
+    left: 24px;
+}
+
+.about-text-wrapper {
+    width: 72%;
 }
 
 /* SECTION OUR FRIENDS */
 .our-friends {
-    padding-top: 120px;
+    padding-top: 56px;
     padding-bottom: 100px;
     background: #F6F6F6;
     display: grid;
