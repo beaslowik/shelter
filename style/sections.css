@@ -117,7 +117,7 @@
 /* SECTION OUR FRIENDS */
 .our-friends {
     padding-top: 56px;
-    padding-bottom: 100px;
+    padding-bottom: 98px;
     background: #F6F6F6;
     display: grid;
     justify-content: center;
@@ -170,7 +170,7 @@
 }
 
 .our-friends-card {
-    background-color: white;
+    background-color: #FAFAFA;
     border-radius: 9px;
     text-align: center;
 }
@@ -197,6 +197,7 @@
 }
 
 .our-friends-card:hover {
+    background-color: #FFFFFF;
     cursor: pointer;
 }
 
@@ -208,4 +209,148 @@
 .our-friends-bt-get-to-know {
     place-self: center center;
     margin: 65px 0 0 0;
+}
+
+/* SECTION HELP */
+.help {
+    background-color: white;
+    padding-top: 55px;
+    padding-bottom: 85px;
+}
+
+.help h2 {
+    text-align: center;
+    line-height: 130%;
+}
+
+.help-icons-wrapper-first-row {
+    padding-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    justify-content: center;
+    gap: 4vw;
+}
+
+.help-icons-wrapper-second-row {
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    justify-content: center;
+    gap: 4.2vw;
+}
+
+.help-icons-wrapper figure {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.help-icons-wrapper figcaption {
+    padding-top: 30px;
+    font-family: 'Georgia';
+    font-size: 1.56vw;
+    line-height: 115%;
+    letter-spacing: 0.06em;
+    color: #545454;
+    text-align: center;
+}
+
+/* SECTION IN ADDITION */
+.in-addition {
+    background-color: #F6F6F6;
+    padding-top: 60px;
+    padding-bottom: 90px;
+    display: grid;
+    grid-template-columns: 39.45vw 29.69vw;
+    gap: 2vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.in-addition-text-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.in-addition-text-wrapper h2 {
+    line-height: 130%;
+    margin-bottom: 2px;
+}
+
+.in-addition-text-wrapper a {
+    padding: 10px 15px;
+    background: #F1CDB3;
+    border-radius: 9px;
+    display: flex;
+    align-items: center;
+    font-family: 'Georgia';
+    font-size: 1.56vw;
+    letter-spacing: 0.06em;
+    color: #545454;
+    text-decoration: none;
+}
+
+.bank-name {
+    font-family: 'Georgia';
+    font-size: 1.17vw;
+    line-height: 110%;
+    letter-spacing: 0.06em;
+    color: #545454;
+}
+
+.legal-info {
+    padding-top: 7px;
+    font-family: 'Arial';
+    font-style: italic;
+    font-size: 0.94vw;
+    line-height: 150%;
+    color: #B2B2B2;
+}
+
+.in-addition-text-wrapper a:hover {
+    background-color: #FDDCC4;
+}
+
+.in-addition-text-wrapper a img {
+    padding-right: 15px;
+}
+
+/* FOOTER */
+footer {
+    padding-top: 32px;
+    background-color: #2b2726;
+    background-image: url(/assets/images/noise_transparent.png), url(/assets/images/footer-background.png);
+    background-repeat: repeat, no-repeat;
+    background-size: 12%, cover;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer h2 {
+    color: white;
+    line-height: 130%;
+}
+
+footer a {
+    text-decoration: none;
+    font-family: 'Georgia';
+    font-size: 1.56vw;
+    line-height: 115%;
+    letter-spacing: 0.06em;
+    color: #F1CDB3;
+}
+
+footer p {
+    display: flex;
+    align-items: center;
+}
+
+.footer-icon {
+    margin-right: 1.56vw;
+}
+
+.footer-puppy-img {
+    align-self: flex-end;
 }
