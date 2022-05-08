@@ -1,3 +1,6 @@
+@import url(normalize.css);
+@import url(global.css);
+
 /* HEADER WRAPPER*/
 .header-wrapper {
     background-color: #2b2726;
