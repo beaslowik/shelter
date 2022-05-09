@@ -71,7 +71,7 @@
     display: grid;
     grid-template-columns: repeat(4, auto);
     gap: 30px 3.13vw;
-
+    justify-content: center;
 }
 
 .our-friends-card {
@@ -146,8 +146,7 @@
     border: 2px solid #F1CDB3;
 }
 
-.our-friends-pagination span:hover[data-enabled],
-.our-friends-pagination span:hover[data-active] {
+.our-friends-pagination span:hover[data-enabled] {
     background-color: #FDDCC4;
     border: 2px solid #FDDCC4;
     cursor: pointer;
