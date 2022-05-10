@@ -4,7 +4,7 @@
 /* HEADER WRAPPER*/
 .header-wrapper {
     background-color: #2b2726;
-    background-image: url(/assets/images/noise_transparent.png), url(/assets/images/start-screen-background.jpg);
+    background-image: url(assets/images/noise_transparent.png), url(assets/images/start-screen-background.jpg);
     background-repeat: repeat, no-repeat;
     background-size: 12%, cover;
 }

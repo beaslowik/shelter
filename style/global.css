@@ -61,7 +61,7 @@ p {
 footer {
     padding-top: 32px;
     background-color: #2b2726;
-    background-image: url(/assets/images/noise_transparent.png), url(/assets/images/footer-background.png);
+    background-image: url(assets/images/noise_transparent.png), url(assets/images/footer-background.png);
     background-repeat: repeat, no-repeat;
     background-size: 12%, cover;
     display: flex;
