@@ -5,7 +5,6 @@
 .header-wrapper {
     background-color: #2b2726;
     background-image: url(../assets/images/noise_transparent@2x.png), radial-gradient(80% 350% at 0% 0%, #4e3e32 10%, #222021 100%);
-
 }
 
 /* HEADER */
@@ -173,6 +172,9 @@
 }
 
 .our-friends-card {
+    -webkit-box-shadow: 0px 0px 21px -5px rgba(193, 193, 193, 1);
+    -moz-box-shadow: 0px 0px 21px -5px rgba(193, 193, 193, 1);
+    box-shadow: 0px 0px 21px -5px rgba(193, 193, 193, 1);
     background-color: #FAFAFA;
     border-radius: 9px;
     text-align: center;
@@ -207,7 +209,8 @@
 }
 
 .our-friends-card:hover button {
-    background-color: #F1CDB3;
+    background-color: #FDDCC4;
+    border: 2px solid #FDDCC4;
     cursor: pointer;
 }
 
