@@ -1,0 +1,321 @@
+@import url(normalize.css);
+@import url(global.css);
+
+/* HEADER WRAPPER*/
+.header-wrapper {
+    background-color: #2b2726;
+    background-image: url(../assets/images/noise_transparent.png), url(../assets/images/start-screen-background.jpg);
+    background-repeat: repeat, no-repeat;
+    background-size: 12%, cover;
+}
+
+/* HEADER */
+.main-menu {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    gap: 2.81vw;
+}
+
+.main-menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.17vw;
+}
+
+.main-menu a:hover {
+    text-shadow: 0px 0px 5px rgb(255, 255, 255);
+}
+
+.header-wrapper header {
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.logo-wrapper h1 a {
+    color: #F1CDB3;
+    font-family: 'Gelasio', Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    font-size: 2.5vw;
+    letter-spacing: 0.06em;
+}
+
+.logo-wrapper p {
+    color: white;
+    font-size: 1.02vw;
+    letter-spacing: 0.1em;
+    position: relative;
+    top: -22px;
+    left: 0.3vh;
+}
+
+#about-higlight {
+    padding-bottom: 6px;
+    background-image: linear-gradient(to right, #F1CDB3, #F1CDB3);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: 100% 3px;
+}
+
+/* SECTION NOT ONLY */
+.not-only {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.not-only-text-wrapper {
+    position: relative;
+    top: -76px;
+    width: 50vw;
+}
+
+.not-only h2 {
+    color: white;
+    font-size: 3.13vw;
+    line-height: 135%;
+}
+
+.not-only p {
+    font-size: 1.17vw;
+    line-height: 160%;
+    color: #CDCDCD;
+    position: relative;
+    top: 10px;
+
+}
+
+.not-only-button {
+    position: relative;
+    top: 54px;
+}
+
+.not-only img {
+    /* width: 50vw; */
+    /* height: auto; */
+    padding-top: 25px;
+}
+
+/* SECTION ABOUT  */
+.about {
+    background-color: white;
+    padding-top: 75px;
+    padding-bottom: 105px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.about img {
+    justify-self: center;
+    position: relative;
+    left: 24px;
+}
+
+.about-text-wrapper {
+    width: 72%;
+}
+
+/* SECTION OUR FRIENDS */
+.our-friends {
+    padding-top: 56px;
+    padding-bottom: 98px;
+    background: #F6F6F6;
+    display: grid;
+    justify-content: center;
+    position: relative;
+}
+
+.our-friends h2 {
+    text-align: center;
+}
+
+.our-friends-cards-wrapper {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    align-items: center;
+    gap: 7.03vw;
+    margin-top: 34px;
+}
+
+.arrow-left {
+    width: 4.06vw;
+    height: 4.06vw;
+    cursor: pointer;
+    border: solid 2px #F1CDB3;
+    border-radius: 4.06vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 3.13vw;
+}
+
+.arrow-right {
+    width: 4.06vw;
+    height: 4.06vw;
+    cursor: pointer;
+    border: solid 2px #F1CDB3;
+    border-radius: 4.06vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    right: 3.13vw;
+}
+
+.arrow-left:hover,
+.arrow-right:hover {
+    background-color: #FDDCC4;
+    border: solid 2px #FDDCC4;
+    border-radius: 100px;
+}
+
+.our-friends-card {
+    background-color: #FAFAFA;
+    border-radius: 9px;
+    text-align: center;
+}
+
+.our-friends-card h3 {
+    font-family: 'Georgia';
+    font-size: 1.56vw;
+    line-height: 23px;
+    letter-spacing: 0.06em;
+    color: #545454;
+    margin-top: 26px;
+}
+
+.our-friends-card button {
+    padding: 1.17vw 3.52vw;
+    margin: 8px 0 25px 0;
+    border: 2px solid #F1CDB3;
+    border-radius: 100px;
+    font-family: 'Georgia';
+    font-size: 1.33vw;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    color: #292929;
+}
+
+.our-friends-card:hover {
+    background-color: #FFFFFF;
+    cursor: pointer;
+}
+
+.our-friends-card:hover button {
+    background-color: #F1CDB3;
+    cursor: pointer;
+}
+
+.our-friends-bt-get-to-know {
+    place-self: center center;
+    margin: 65px 0 0 0;
+}
+
+/* SECTION HELP */
+.help {
+    background-color: white;
+    padding-top: 55px;
+    padding-bottom: 85px;
+}
+
+.help h2 {
+    text-align: center;
+    line-height: 130%;
+}
+
+.help-icons-wrapper-first-row {
+    padding-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    justify-content: center;
+    gap: 4vw;
+}
+
+.help-icons-wrapper-second-row {
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    justify-content: center;
+    gap: 4.2vw;
+}
+
+.help-icons-wrapper figure {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.help-icons-wrapper figcaption {
+    padding-top: 30px;
+    font-family: 'Georgia';
+    font-size: 1.56vw;
+    line-height: 115%;
+    letter-spacing: 0.06em;
+    color: #545454;
+    text-align: center;
+}
+
+/* SECTION IN ADDITION */
+.in-addition {
+    background-color: #F6F6F6;
+    padding-top: 60px;
+    padding-bottom: 90px;
+    display: grid;
+    grid-template-columns: 39.45vw 29.69vw;
+    gap: 2vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.in-addition-text-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.in-addition-text-wrapper h2 {
+    line-height: 130%;
+    margin-bottom: 2px;
+}
+
+.in-addition-text-wrapper a {
+    padding: 10px 15px;
+    background: #F1CDB3;
+    border-radius: 9px;
+    display: flex;
+    align-items: center;
+    font-family: 'Georgia';
+    font-size: 1.56vw;
+    letter-spacing: 0.06em;
+    color: #545454;
+    text-decoration: none;
+}
+
+.bank-name {
+    font-family: 'Georgia';
+    font-size: 1.17vw;
+    line-height: 110%;
+    letter-spacing: 0.06em;
+    color: #545454;
+}
+
+.legal-info {
+    padding-top: 7px;
+    font-family: 'Arial';
+    font-style: italic;
+    font-size: 0.94vw;
+    line-height: 150%;
+    color: #B2B2B2;
+}
+
+.in-addition-text-wrapper a:hover {
+    background-color: #FDDCC4;
+}
+
+.in-addition-text-wrapper a img {
+    padding-right: 15px;
+}
