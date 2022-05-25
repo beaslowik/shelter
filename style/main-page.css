@@ -4,9 +4,8 @@
 /* HEADER WRAPPER*/
 .header-wrapper {
     background-color: #2b2726;
-    background-image: url(../assets/images/noise_transparent.png), url(../assets/images/start-screen-background.jpg);
-    background-repeat: repeat, no-repeat;
-    background-size: 12%, cover;
+    background-image: url(../assets/images/noise_transparent@2x.png), radial-gradient(80% 350% at 0% 0%, #4e3e32 10%, #222021 100%);
+
 }
 
 /* HEADER */
