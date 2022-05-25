@@ -1,5 +1,8 @@
 /* FONTS */
-@import url('https://fonts.googleapis.com/css2?family=Gelasio&display=swap');
+@font-face {
+    font-family: 'Georgia';
+    src: url(../assets/fonts/georgia.ttf);
+}
 
 body {
     background-color: #292929;
@@ -26,9 +29,11 @@ main>* {
 /* HEADERS, PARAGRAPHS */
 h2 {
     color: #545454;
-    font-family: 'Gelasio', Georgia, 'Times New Roman', Times, serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
     font-size: 2.73vw;
-    letter-spacing: 0.06em;
+    /* line-height: 1.2; */
+    letter-spacing: 0.05em;
 }
 
 p {
@@ -41,7 +46,8 @@ p {
 /* BUTTONS */
 .btn-default {
     text-decoration: none;
-    font-family: 'Gelasio', Georgia, 'Times New Roman', Times, serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
     font-size: 1.33vw;
     line-height: 130%;
     letter-spacing: 0.06em;
@@ -75,7 +81,8 @@ footer h2 {
 
 footer a {
     text-decoration: none;
-    font-family: 'Georgia';
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
     font-size: 1.56vw;
     line-height: 115%;
     letter-spacing: 0.06em;
