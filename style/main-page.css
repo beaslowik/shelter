@@ -12,21 +12,37 @@
     list-style: none;
     display: grid;
     grid-template-columns: repeat(4, auto);
-    gap: 2.81vw;
+    gap: 2.70vw;
 }
 
 .main-menu a {
     color: white;
     text-decoration: none;
     font-size: 1.17vw;
+    transition: color 0.2s ease-out;
+    transition: padding-bottom 0.2s ease-out;
+}
+
+#about-higlight {
+    color: #F1CDB3;
+    padding-bottom: 8px;
+    background-image: linear-gradient(to right, #F1CDB3, #F1CDB3);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: 100% 3px;
 }
 
 .main-menu a:hover {
-    text-shadow: 0px 0px 5px rgb(255, 255, 255);
+    color: #FDDCC4;
+    padding-bottom: 8px;
+    background-image: linear-gradient(to right, #F1CDB3, #F1CDB3);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: 100% 3px;
 }
 
 .header-wrapper header {
-    padding-top: 40px;
+    padding-top: 42px;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -45,62 +61,52 @@
     color: white;
     font-size: 1.02vw;
     letter-spacing: 0.1em;
-    position: relative;
-    top: -22px;
-    left: 0.3vh;
+    margin-top: -20px;
+    margin-left: 0.2vw;
 }
 
-#about-higlight {
-    padding-bottom: 6px;
-    background-image: linear-gradient(to right, #F1CDB3, #F1CDB3);
-    background-position: bottom;
-    background-repeat: no-repeat;
-    background-size: 100% 3px;
-}
+
 
 /* SECTION NOT ONLY */
 .not-only {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-top: 22px;
 }
 
 .not-only-text-wrapper {
     position: relative;
-    top: -76px;
+    margin-top: -169px;
     width: 50vw;
 }
 
 .not-only h2 {
     color: white;
     font-size: 3.13vw;
-    line-height: 135%;
+    line-height: 155%;
 }
 
 .not-only p {
     font-size: 1.17vw;
-    line-height: 160%;
+    line-height: 145%;
     color: #CDCDCD;
-    position: relative;
-    top: 10px;
-
+    margin-top: 47px;
 }
 
 .not-only-button {
     position: relative;
-    top: 54px;
+    top: 48px;
 }
 
 .not-only img {
-    /* width: 50vw; */
-    /* height: auto; */
     padding-top: 25px;
 }
 
 /* SECTION ABOUT  */
 .about {
     background-color: white;
-    padding-top: 75px;
+    padding-top: 65px;
     padding-bottom: 105px;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -118,7 +124,7 @@
 
 /* SECTION OUR FRIENDS */
 .our-friends {
-    padding-top: 56px;
+    padding-top: 62px;
     padding-bottom: 98px;
     background: #F6F6F6;
     display: grid;
@@ -149,6 +155,7 @@
     justify-content: center;
     position: relative;
     left: 3.13vw;
+    transition: background-color 0.2s ease-out;
 }
 
 .arrow-right {
@@ -162,6 +169,7 @@
     justify-content: center;
     position: relative;
     right: 3.13vw;
+    transition: background-color 0.2s ease-out;
 }
 
 .arrow-left:hover,
@@ -178,6 +186,7 @@
     background-color: #FAFAFA;
     border-radius: 9px;
     text-align: center;
+    transition: background-color 0.2s ease-out;
 }
 
 .our-friends-card h3 {
@@ -201,6 +210,7 @@
     line-height: 130%;
     letter-spacing: 0.06em;
     color: #292929;
+    transition: background-color 0.2s ease-out;
 }
 
 .our-friends-card:hover {
@@ -268,7 +278,7 @@
 /* SECTION IN ADDITION */
 .in-addition {
     background-color: #F6F6F6;
-    padding-top: 60px;
+    padding-top: 56px;
     padding-bottom: 90px;
     display: grid;
     grid-template-columns: 39.45vw 29.69vw;
@@ -300,6 +310,7 @@
     letter-spacing: 0.06em;
     color: #545454;
     text-decoration: none;
+    transition: background-color 0.2s ease-out;
 }
 
 .bank-name {
