@@ -10,13 +10,13 @@ body {
 }
 
 main {
-    width: 1280px;
+    /* width: 1280px; */
     margin: auto;
     position: relative;
 }
 
 footer {
-    width: 1280px;
+    /* width: 1280px; */
     margin: auto;
     box-sizing: border-box;
     padding: 0 3.13%;

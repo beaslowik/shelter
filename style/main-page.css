@@ -241,20 +241,13 @@
     line-height: 130%;
 }
 
-.help-icons-wrapper-first-row {
-    padding-top: 10px;
-    display: grid;
-    grid-template-columns: repeat(5, auto);
+.help-icons-wrapper {
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    gap: 4vw;
-}
-
-.help-icons-wrapper-second-row {
-    padding-top: 20px;
-    display: grid;
-    grid-template-columns: repeat(4, auto);
-    justify-content: center;
-    gap: 4.2vw;
+    column-gap: 3.13vw;
+    row-gap: 22px
 }
 
 .help-icons-wrapper figure {
