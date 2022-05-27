@@ -140,49 +140,48 @@
     padding-bottom: 98px;
     background: #F6F6F6;
     display: grid;
-    justify-content: center;
-    position: relative;
+    justify-items: center;
 }
 
 .our-friends h2 {
     text-align: center;
 }
 
+.slider-wrapper {
+    padding-top: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    column-gap: 4.1vw;
+}
+
 .our-friends-cards-wrapper {
     display: grid;
-    grid-template-columns: repeat(5, auto);
-    align-items: center;
-    gap: 7.03vw;
-    margin-top: 35px;
+    grid-template-columns: repeat(3, auto);
+    gap: 7vw;
 }
 
 .arrow-left {
-    width: 4.06vw;
-    height: 4.06vw;
+    width: 3.8vw;
+    height: 3.8vw;
     cursor: pointer;
     border: solid 2px #F1CDB3;
     border-radius: 4.06vw;
     display: flex;
     align-items: center;
     justify-content: center;
-    position: relative;
-    left: 3.13vw;
-    top: 2px;
     transition: background-color 0.2s ease-out;
 }
 
 .arrow-right {
-    width: 4.06vw;
-    height: 4.06vw;
+    width: 3.8vw;
+    height: 3.8vw;
     cursor: pointer;
     border: solid 2px #F1CDB3;
     border-radius: 4.06vw;
     display: flex;
     align-items: center;
     justify-content: center;
-    position: relative;
-    right: 3.13vw;
-    top: 2px;
     transition: background-color 0.2s ease-out;
 }
 
@@ -248,14 +247,14 @@
 }
 
 .our-friends-bt-get-to-know {
-    place-self: center center;
-    margin: 65px 0 0 0;
+    /* place-self: center center; */
+    margin: 62px 0 0 0;
 }
 
 /* SECTION HELP */
 .help {
     background-color: white;
-    padding-top: 51px;
+    padding-top: 55px;
     padding-bottom: 85px;
 }
 

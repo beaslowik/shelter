@@ -4,24 +4,17 @@
     src: url(../assets/fonts/georgia.ttf);
 }
 
-@font-face {
-    font-family: 'Down';
-    src: url(../assets/fonts/DawningofaNewDay.ttf);
-}
-
 body {
     background-color: #292929;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 main {
-    /* max-width: 1280px; */
     margin: auto;
     position: relative;
 }
 
 footer {
-    /* max-width: 1280px; */
     margin: auto;
     box-sizing: border-box;
     padding: 0 3.13%;
