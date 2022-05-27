@@ -255,7 +255,7 @@
 /* SECTION HELP */
 .help {
     background-color: white;
-    padding-top: 55px;
+    padding-top: 51px;
     padding-bottom: 85px;
 }
 
@@ -265,12 +265,12 @@
 }
 
 .help-icons-wrapper {
-    margin-top: 40px;
+    margin-top: 44px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    column-gap: 3.13vw;
-    row-gap: 22px
+    column-gap: 3.3vw;
+    row-gap: 25px
 }
 
 .help-icons-wrapper figure {
@@ -278,6 +278,10 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.help-icons-wrapper figure img {
+    width: 4.7vw;
 }
 
 .help-icons-wrapper figcaption {
