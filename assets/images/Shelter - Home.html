@@ -115,10 +115,15 @@
              <div class="in-addition-text-wrapper">
                  <h2>You can also <br> make a donation</h2>
                  <p class="bank-name">Name of the bank / Type of bank account</p>
+
                  <div class="bank-account">
                      <img src="assets/icons/credit-card.svg" alt="">
                      <a href="#">8380 2880 8028 8791 7435</a>
                  </div>
+                 <!-- <a href="#"><img src="assets/icons/credit-card.svg" alt=""><span>8380 2880 8028 8791 7435</span></a> -->
+
+
+
                  <p class="legal-info">Legal information and lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas a ipsum at libero sagittis dignissim sed ac diam. Praesent ultrices maximus tortor et vulputate. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
              </div>
 
@@ -132,6 +137,7 @@
                  <img class="footer-icon" src="assets/icons/icon-email.svg" alt="">
                  <a href="mailto:email@shelter.com">email@shelter.com</a>
              </p>
+             <br>
              <p>
                  <img class="footer-icon" src="assets/icons/icon-phone.svg" alt="">
                  <a href="tel:+136745677554">+13 674 567 75 54</a>
@@ -144,6 +150,7 @@
                  <img class="footer-icon" src="assets/icons/icon-marker.svg" alt="">
                  <a href="https://www.google.com/maps/place/Kozia+W%C3%B3lka/@53.9191155,19.8529584,13z/data=!4m5!3m4!1s0x46e2a1f9c23cd5cd:0x91233b6429b89817!8m2!3d53.9205064!4d19.8601682" target="_blank">1 Central Street, Boston <br> (entrance from the store)</a>
              </p>
+             <br>
              <p>
                  <img class="footer-icon" src="assets/icons/icon-marker.svg" alt="">
                  <a href="https://www.google.com/maps/place/32-200+Wielki+D%C3%B3%C5%82/@50.3172399,20.0133284,13z/data=!4m5!3m4!1s0x4717ab778965e663:0xaf8fdf68de7d9e92!8m2!3d50.3167944!4d20.0291916" target="_blank">18 South Park, London</a>
@@ -152,6 +159,43 @@
          <img class="footer-puppy-img" src="assets/images/footer-puppy.png" alt="Puppy">
      </footer>
 
- </body>
+ <!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script></body>
 
  </html>

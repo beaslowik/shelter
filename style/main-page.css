@@ -299,7 +299,7 @@
 .in-addition {
     background-color: #F6F6F6;
     padding-top: 50px;
-    padding-bottom: 90px;
+    padding-bottom: 88px;
     display: grid;
     grid-template-columns: 1.3fr 1fr;
     align-items: center;
@@ -309,13 +309,13 @@
     width: 39.5vw;
     justify-self: center;
     position: relative;
-    left: 56px;
+    left: 4.4vw;
     top: 9px;
 }
 
 .in-addition-text-wrapper {
     justify-self: start;
-    width: 72%;
+    width: 29.45vw;
 }
 
 .in-addition-text-wrapper h2 {
@@ -333,33 +333,31 @@
     color: #545454;
 }
 
-.in-addition-text-wrapper a {
-    padding: 10px 15px;
-    background: #F1CDB3;
+.bank-account {
     border-radius: 9px;
+    padding: 0.78vw 1.17vw;
+    background: #F1CDB3;
+    transition: background-color 0.2s ease-out;
+    width: 25vw;
+    display: flex;
+
+}
+
+.bank-account a {
+    text-decoration: none;
+    color: #545454;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 400;
     font-size: 1.56vw;
     letter-spacing: 0.06em;
-    color: #545454;
-    text-decoration: none;
-    transition: background-color 0.2s ease-out;
-    width: 25vw;
-    display: flex;
-    flex-wrap: nowrap;
-    align-items: center;
-    justify-items: center;
 }
 
-.in-addition-text-wrapper a img {
+.bank-account img {
     width: 2.3vw;
-    padding-right: 15px;
-    position: relative;
-    top: 1px;
-    left: 1px;
+    padding-right: 1.2vw;
 }
 
-.in-addition-text-wrapper a:hover {
+.bank-account:hover {
     background-color: #FDDCC4;
 }
 
