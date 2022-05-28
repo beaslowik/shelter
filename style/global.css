@@ -49,7 +49,8 @@ p {
 
 @media screen and (max-width: 770px) {
     h2 {
-        font-size: 5.73vw;
+        font-size: 4.56vw;
+        letter-spacing: 0.06em;
     }
 
     p {

@@ -174,7 +174,17 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-items: center;
+    grid-template-areas: "about-picture about-text";
 }
+
+#about-picture {
+    grid-area: about-picture;
+}
+
+#about-text {
+    grid-area: about-text;
+}
+
 
 .about img {
     width: 23.5vw;
@@ -196,6 +206,26 @@
 
 .about h2 {
     line-height: 1.3em;
+}
+
+@media screen and (max-width: 770px) {
+    .about {
+        grid-template-areas: " about-text "" about-picture ";
+        grid-template-columns: 1fr;
+        padding-top: 51px;
+        padding-bottom: 161px;
+    }
+
+    .about-text-wrapper {
+        width: 61%;
+        justify-self: center;
+    }
+
+    .about img {
+        width: 39.8vw;
+        top: 66px;
+        left: 0;
+    }
 }
 
 /* SECTION OUR FRIENDS */
