@@ -345,6 +345,54 @@
     margin: 62px 0 0 0;
 }
 
+@media screen and (max-width: 770px) {
+    #woody {
+        display: none;
+    }
+
+    .slider-wrapper {
+        column-gap: 1.5vw;
+        padding-top: 39px;
+    }
+
+    .our-friends-cards-wrapper {
+        gap: 0;
+    }
+
+    #jenifer {
+        margin-left: 4.5vw;
+    }
+
+    .arrow-right {
+        width: 6.77vw;
+        height: 6.77vw;
+    }
+
+    .arrow-left {
+        width: 6.77vw;
+        height: 6.77vw;
+    }
+
+    .arrow-left img,
+    .arrow-right img {
+        width: 1.8vw;
+    }
+
+    .our-friends-card img {
+        width: 35.1vw;
+    }
+
+    .our-friends-card h3 {
+        font-size: 2.6vw;
+    }
+
+    .our-friends-card button {
+        padding: 1.95vw 5.86vw;
+        font-size: 2.21vw;
+    }
+
+}
+
 /* SECTION HELP */
 .help {
     background-color: white;
