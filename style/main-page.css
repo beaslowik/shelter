@@ -437,6 +437,10 @@
 }
 
 @media screen and (max-width: 770px) {
+    .help {
+        padding-bottom: 102px;
+    }
+
     .help-icons-wrapper {
         margin-top: 56px;
         column-gap: 9.9vw;
@@ -464,7 +468,16 @@
     padding-bottom: 88px;
     display: grid;
     grid-template-columns: 1.3fr 1fr;
+    grid-template-areas: 'in-addition-picture in-addition-text';
     align-items: center;
+}
+
+#in-addition-picture {
+    grid-area: in-addition-picture;
+}
+
+#in-addition-text {
+    grid-area: in-addition-text;
 }
 
 .in-addition>img {
@@ -530,4 +543,45 @@
     font-size: 0.94vw;
     line-height: 150%;
     color: #B2B2B2;
+}
+
+@media screen and (max-width: 770px) {
+    .in-addition {
+        padding-bottom: 152px;
+        grid-template-areas: 'in-addition-text''in-addition-picture';
+        grid-template-columns: 1fr;
+    }
+
+    .in-addition-text-wrapper {
+        width: 49vw;
+        justify-self: center;
+    }
+
+    .bank-account {
+        width: 41.2vw;
+        padding: 1.3vw 1.95vw;
+    }
+
+    .bank-name {
+        font-size: 1.95vw;
+    }
+
+    .bank-account a {
+        font-size: 2.6vw;
+    }
+
+    .bank-account img {
+        width: 3.91vw;
+        padding-right: 1.5vw;
+    }
+
+    .legal-info {
+        font-size: 1.56vw;
+    }
+
+    .in-addition>img {
+        width: 65.5vw;
+        top: 53px;
+        left: 0;
+    }
 }
