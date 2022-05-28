@@ -24,6 +24,12 @@ main>* {
     padding: 0 3.13%;
 }
 
+@media screen and (max-width: 770px) {
+    main>* {
+        padding: 0 3.91%;
+    }
+}
+
 /* HEADERS, PARAGRAPHS */
 h2 {
     color: #545454;
@@ -33,11 +39,22 @@ h2 {
     letter-spacing: 0.05em;
 }
 
+
 p {
     font-size: 1.17vw;
     line-height: 160%;
     color: #4C4C4C;
     line-height: 160%;
+}
+
+@media screen and (max-width: 770px) {
+    h2 {
+        font-size: 5.73vw;
+    }
+
+    p {
+        font-size: 1.95vw;
+    }
 }
 
 /* BUTTONS */
@@ -55,11 +72,17 @@ p {
     border-radius: 10vw;
     cursor: pointer;
     transition: background-color 0.2s ease-out;
-
 }
 
 .btn-default:hover {
     background-color: #FDDCC4;
+}
+
+@media screen and (max-width: 770px) {
+    .btn-default {
+        font-size: 2.21vw;
+        padding: 1.95vw 5.86vw;
+    }
 }
 
 /* FOOTER */
