@@ -436,6 +436,27 @@
     text-align: center;
 }
 
+@media screen and (max-width: 770px) {
+    .help-icons-wrapper {
+        margin-top: 56px;
+        column-gap: 9.9vw;
+        row-gap: 7.16vw;
+    }
+
+    .help-icons-wrapper figure {
+        margin: 0;
+        width: 154px;
+    }
+
+    .help-icons-wrapper figure img {
+        width: 8vw;
+    }
+
+    .help-icons-wrapper figcaption {
+        font-size: 2.6vw;
+    }
+}
+
 /* SECTION IN ADDITION */
 .in-addition {
     background-color: #F6F6F6;
