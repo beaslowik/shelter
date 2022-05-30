@@ -598,7 +598,7 @@
 @media screen and (max-width: 400px) {
     .help {
         padding-top: 22px;
-        padding-bottom: 51px;
+        padding-bottom: 48px;
     }
 
     .help-icons-wrapper {
@@ -748,5 +748,44 @@
         width: 65.5vw;
         top: 47px;
         left: 0;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .in-addition {
+        padding-top: 22px;
+        padding-bottom: 68px;
+    }
+
+    .in-addition-text-wrapper {
+        width: 87vw;
+    }
+
+    .in-addition-text-wrapper h2 {
+        text-align: center;
+    }
+
+    .bank-account {
+        width: 83vw;
+        padding: 10px 15px;
+        margin-top: 22px;
+    }
+
+    .bank-name {
+        letter-spacing: normal;
+    }
+
+    .bank-account img {
+        width: 30px;
+        padding-right: 15px;
+    }
+
+    .bank-account a {
+        font-size: 4.69vw;
+    }
+
+    .in-addition>img {
+        width: 82.5vw;
+        top: 27px;
     }
 }

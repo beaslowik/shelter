@@ -177,3 +177,23 @@ footer p {
         margin: auto;
     }
 }
+
+@media screen and (max-width: 400px) {
+    footer {
+        padding-top: 11px;
+    }
+
+    .footer-suggestions-wrapper img {
+        width: 12.5vw;
+        margin-right: 8.6vw;
+    }
+
+    .footer-visit-wrapper img {
+        width: 6.88vw;
+        margin-right: 1.56vw;
+    }
+
+    .footer-puppy-img {
+        width: 81vw;
+    }
+}
