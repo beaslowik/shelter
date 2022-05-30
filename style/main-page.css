@@ -77,13 +77,13 @@
     }
 
     .logo-wrapper h1 a {
-        /* font-size: 4.17vw; */
-        font-size: 32px;
+        font-size: 4.17vw;
+        /* font-size: 32px; */
     }
 
     .logo-wrapper p {
-        /* font-size: 1.69vw; */
-        font-size: 13px;
+        font-size: 1.69vw;
+        /* font-size: 13px; */
         margin-top: -17px;
         margin-left: 3px;
     }
@@ -93,12 +93,12 @@
     }
 
     .main-menu a {
-        /* font-size: 1.95vw; */
-        font-size: 15px;
+        font-size: 1.95vw;
+        /* font-size: 15px; */
     }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
     .main-menu {
         display: none;
     }
@@ -107,9 +107,30 @@
         display: initial;
     }
 
+    .main-menu-mobile img {
+        width: 9.38vw;
+    }
+
     .header-wrapper header {
         align-items: center;
         column-gap: 12vw;
+    }
+
+    .logo-wrapper h1 a {
+        font-size: 10vw;
+        /* font-size: 32px; */
+    }
+
+    .logo-wrapper p {
+        font-size: 4.06vw;
+        /* font-size: 13px; */
+        margin-top: -17px;
+        margin-left: 3px;
+    }
+
+    .main-menu a {
+        font-size: 4.69vw;
+        /* font-size: 15px; */
     }
 }
 
@@ -167,16 +188,16 @@
     .not-only h2 {
         position: relative;
         left: -10vw;
-        /* font-size: 5.73vw; */
-        font-size: 44px;
+        font-size: 5.73vw;
+        /* font-size: 44px; */
         line-height: 137%;
         letter-spacing: normal;
         margin: 0;
     }
 
     .not-only p {
-        /* font-size: 1.95vw; */
-        font-size: 15px;
+        font-size: 1.95vw;
+        /* font-size: 15px; */
         line-height: 149%;
         margin-top: 38px;
     }
@@ -192,22 +213,25 @@
     }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
     .not-only h2 {
         text-align: center;
-        font-size: 25px;
+        /* font-size: 25px; */
+        font-size: 7.83vw;
         left: 0;
         line-height: 32px;
         letter-spacing: 0.06em;
     }
 
     .not-only p {
+        /* font-size: 15px; */
+        font-size: 4.69vw;
         text-align: center;
         letter-spacing: 0.09em;
     }
 
     .not-only-button {
-        padding: 15px 45px;
+        padding: 4.69vw 14.06vw;
         top: 16px
     }
 
@@ -278,7 +302,7 @@
     }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
     .about {
         padding-top: 22px;
         padding-bottom: 73px;
@@ -462,18 +486,18 @@
     }
 
     .our-friends-card h3 {
-        /* font-size: 2.6vw; */
-        font-size: 20px;
+        font-size: 2.6vw;
+        /* font-size: 20px; */
     }
 
     .our-friends-card button {
         padding: 1.95vw 5.86vw;
-        /* font-size: 2.21vw; */
-        font-size: 17px;
+        font-size: 2.21vw;
+        /* font-size: 17px; */
     }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
     #jenifer {
         display: none;
     }
@@ -485,7 +509,7 @@
 
     .slider-wrapper {
         column-gap: 0;
-        position: relative;
+        flex-wrap: wrap;
     }
 
     .our-friends-card img {
@@ -494,35 +518,44 @@
         width: 83vw;
     }
 
+    .our-friends-card h3 {
+        font-size: 6.25vw;
+        /* font-size: 20px; */
+    }
+
     .our-friends-card button {
-        padding: 15px 45px;
+        padding: 4.69vw 14.06vw;
+        font-size: 5.31vw;
+        /* font-size: 17px; */
     }
 
     .arrow-left,
     .arrow-right {
-        position: absolute;
-        top: 475px;
-        width: 52px;
-        height: 52px;
+        height: 16.25vw;
+        width: 16.25vw;
         border-radius: 52px;
+        position: relative;
+        top: 22px;
     }
 
     .arrow-left img,
     .arrow-right img {
-        width: 14px;
+        width: 4.38vw;
     }
 
     .arrow-left {
-        left: 39px;
+        order: 1;
+        left: 8px;
     }
 
     .arrow-right {
-        right: 40px;
+        order: 2;
+        right: 8px;
     }
 
     .our-friends-bt-get-to-know {
-        padding: 15px 44.5px;
-        margin: 117px 0 0 0;
+        padding: 4.69vw 14.06vw;
+        margin: 63px 0 0 0;
     }
 }
 
@@ -590,12 +623,12 @@
     }
 
     .help-icons-wrapper figcaption {
-        /* font-size: 2.6vw; */
-        font-size: 20px;
+        font-size: 2.6vw;
+        /* font-size: 20px; */
     }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
     .help {
         padding-top: 22px;
         padding-bottom: 48px;
@@ -725,13 +758,13 @@
     }
 
     .bank-name {
-        /* font-size: 1.95vw; */
-        font-size: 15px;
+        font-size: 1.95vw;
+        /* font-size: 15px; */
     }
 
     .bank-account a {
-        /* font-size: 2.6vw; */
-        font-size: 20px;
+        font-size: 2.6vw;
+        /* font-size: 20px; */
     }
 
     .bank-account img {
@@ -740,8 +773,8 @@
     }
 
     .legal-info {
-        /* font-size: 1.56vw; */
-        font-size: 12px;
+        font-size: 1.56vw;
+        /* font-size: 12px; */
     }
 
     .in-addition>img {
@@ -751,7 +784,7 @@
     }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
     .in-addition {
         padding-top: 22px;
         padding-bottom: 68px;
@@ -767,7 +800,7 @@
 
     .bank-account {
         width: 83vw;
-        padding: 10px 15px;
+        padding: 3.12vw 4.69vw;
         margin-top: 22px;
     }
 
@@ -776,12 +809,22 @@
     }
 
     .bank-account img {
-        width: 30px;
-        padding-right: 15px;
+        width: 9.38vw;
+        padding-right: 4.69vw;
+    }
+
+    .bank-name {
+        font-size: 4.69vw;
+        /* font-size: 15px; */
     }
 
     .bank-account a {
         font-size: 4.69vw;
+    }
+
+    .legal-info {
+        /* font-size: 3.75vw; */
+        font-size: 12px;
     }
 
     .in-addition>img {

@@ -48,20 +48,26 @@ p {
 
 @media screen and (max-width: 770px) {
     h2 {
-        /* font-size: 4.56vw; */
-        font-size: 35px;
+        font-size: 4.56vw;
+        /* font-size: 35px; */
         letter-spacing: 0.06em;
     }
 
     p {
-        /* font-size: 1.95vw; */
-        font-size: 15px;
+        font-size: 1.95vw;
+        /* font-size: 15px; */
     }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
     h2 {
-        font-size: 25px;
+        /* font-size: 25px; */
+        font-size: 7.81vw;
+    }
+
+    p {
+        font-size: 4.69vw;
+        /* font-size: 15px; */
     }
 }
 
@@ -88,9 +94,16 @@ p {
 
 @media screen and (max-width: 770px) {
     .btn-default {
-        /* font-size: 2.21vw; */
-        font-size: 17px;
+        font-size: 2.21vw;
+        /* font-size: 17px; */
         padding: 1.95vw 5.86vw;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .btn-default {
+        /* font-size: 17px; */
+        font-size: 5.31vw;
     }
 }
 
@@ -156,8 +169,8 @@ footer p {
     }
 
     footer a {
-        /* font-size: 2.99vw; */
-        font-size: 20px;
+        font-size: 2.99vw;
+        /* font-size: 20px; */
     }
 
     .footer-suggestions-wrapper img {
@@ -178,9 +191,17 @@ footer p {
     }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
     footer {
         padding-top: 11px;
+    }
+
+    footer h2 {
+        text-align: center;
+    }
+
+    footer a {
+        font-size: 6.25vw;
     }
 
     .footer-suggestions-wrapper img {
