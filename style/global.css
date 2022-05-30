@@ -119,7 +119,7 @@ footer p {
 }
 
 .footer-visit-wrapper p {
-    margin-top: 34px;
+    margin-top: 31px;
 }
 
 .footer-suggestions-wrapper img {
@@ -140,7 +140,7 @@ footer p {
 
 @media screen and (max-width: 770px) {
     footer {
-        padding-top: 3px;
+        padding-top: 2px;
         flex-wrap: wrap;
         justify-content: center;
         column-gap: 8vw;
