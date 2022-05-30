@@ -69,27 +69,21 @@
     margin-left: 0.2vw;
 }
 
-@media screen and (max-width: 400px) {
-    .main-menu {
-        display: none;
-    }
-
-    .main-menu-mobile {
-        display: initial;
-    }
-}
-
 @media screen and (max-width: 770px) {
     .header-wrapper header {
         padding-top: 11px;
+        justify-content: flex-start;
+        column-gap: 5vw;
     }
 
     .logo-wrapper h1 a {
-        font-size: 4.17vw;
+        /* font-size: 4.17vw; */
+        font-size: 32px;
     }
 
     .logo-wrapper p {
-        font-size: 1.69vw;
+        /* font-size: 1.69vw; */
+        font-size: 13px;
         margin-top: -17px;
         margin-left: 3px;
     }
@@ -99,7 +93,23 @@
     }
 
     .main-menu a {
-        font-size: 1.95vw;
+        /* font-size: 1.95vw; */
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .main-menu {
+        display: none;
+    }
+
+    .main-menu-mobile {
+        display: initial;
+    }
+
+    .header-wrapper header {
+        align-items: center;
+        column-gap: 12vw;
     }
 }
 
@@ -157,14 +167,16 @@
     .not-only h2 {
         position: relative;
         left: -10vw;
-        font-size: 5.73vw;
+        /* font-size: 5.73vw; */
+        font-size: 44px;
         line-height: 137%;
         letter-spacing: normal;
         margin: 0;
     }
 
     .not-only p {
-        font-size: 1.95vw;
+        /* font-size: 1.95vw; */
+        font-size: 15px;
         line-height: 149%;
         margin-top: 38px;
     }
@@ -177,6 +189,31 @@
         padding-top: 129px;
         width: 74vw;
         align-self: flex-end;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .not-only h2 {
+        text-align: center;
+        font-size: 25px;
+        left: 0;
+        line-height: 32px;
+        letter-spacing: 0.06em;
+    }
+
+    .not-only p {
+        text-align: center;
+        letter-spacing: 0.09em;
+    }
+
+    .not-only-button {
+        padding: 15px 45px;
+        top: 16px
+    }
+
+    .not-only img {
+        padding-top: 121px;
+        width: 81vw;
     }
 }
 
@@ -198,7 +235,6 @@
 #about-text {
     grid-area: about-text;
 }
-
 
 .about img {
     width: 23.5vw;
@@ -239,6 +275,31 @@
         width: 39.2vw;
         top: 65px;
         left: 0;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .about {
+        padding-top: 22px;
+        padding-bottom: 73px;
+    }
+
+    .about h2 {
+        text-align: center;
+    }
+
+    .about-text-wrapper {
+        width: 90%;
+        text-align: justify;
+    }
+
+    .about-text-wrapper p:first-of-type {
+        margin-top: 0px;
+    }
+
+    .about img {
+        width: 80vw;
+        top: 28px;
     }
 }
 
@@ -401,14 +462,68 @@
     }
 
     .our-friends-card h3 {
-        font-size: 2.6vw;
+        /* font-size: 2.6vw; */
+        font-size: 20px;
     }
 
     .our-friends-card button {
         padding: 1.95vw 5.86vw;
-        font-size: 2.21vw;
+        /* font-size: 2.21vw; */
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    #jenifer {
+        display: none;
     }
 
+    .our-friends {
+        padding-top: 25px;
+        padding-bottom: 43px;
+    }
+
+    .slider-wrapper {
+        column-gap: 0;
+        position: relative;
+    }
+
+    .our-friends-card img {
+        margin-top: -9px;
+        padding-top: 0;
+        width: 83vw;
+    }
+
+    .our-friends-card button {
+        padding: 15px 45px;
+    }
+
+    .arrow-left,
+    .arrow-right {
+        position: absolute;
+        top: 475px;
+        width: 52px;
+        height: 52px;
+        border-radius: 52px;
+    }
+
+    .arrow-left img,
+    .arrow-right img {
+        width: 14px;
+    }
+
+    .arrow-left {
+        left: 39px;
+    }
+
+    .arrow-right {
+        right: 40px;
+    }
+
+    .our-friends-bt-get-to-know {
+        padding: 15px 44.5px;
+        margin: 117px 0 0 0;
+    }
 }
 
 /* SECTION HELP */
@@ -475,7 +590,35 @@
     }
 
     .help-icons-wrapper figcaption {
-        font-size: 2.6vw;
+        /* font-size: 2.6vw; */
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .help {
+        padding-top: 22px;
+        padding-bottom: 51px;
+    }
+
+    .help-icons-wrapper {
+        margin-top: 40px;
+        justify-content: flex-start;
+        column-gap: 5.9vw;
+        row-gap: 18px;
+    }
+
+    .help-icons-wrapper figure {
+        width: 43vw;
+    }
+
+    .help-icons-wrapper figure img {
+        width: 16vw;
+    }
+
+    .help-icons-wrapper figcaption {
+        font-size: 4.69vw;
+        padding-top: 27px;
     }
 }
 
@@ -582,11 +725,13 @@
     }
 
     .bank-name {
-        font-size: 1.95vw;
+        /* font-size: 1.95vw; */
+        font-size: 15px;
     }
 
     .bank-account a {
-        font-size: 2.6vw;
+        /* font-size: 2.6vw; */
+        font-size: 20px;
     }
 
     .bank-account img {
@@ -595,7 +740,8 @@
     }
 
     .legal-info {
-        font-size: 1.56vw;
+        /* font-size: 1.56vw; */
+        font-size: 12px;
     }
 
     .in-addition>img {

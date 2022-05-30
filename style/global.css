@@ -48,12 +48,20 @@ p {
 
 @media screen and (max-width: 770px) {
     h2 {
-        font-size: 4.56vw;
+        /* font-size: 4.56vw; */
+        font-size: 35px;
         letter-spacing: 0.06em;
     }
 
     p {
-        font-size: 1.95vw;
+        /* font-size: 1.95vw; */
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    h2 {
+        font-size: 25px;
     }
 }
 
@@ -80,7 +88,8 @@ p {
 
 @media screen and (max-width: 770px) {
     .btn-default {
-        font-size: 2.21vw;
+        /* font-size: 2.21vw; */
+        font-size: 17px;
         padding: 1.95vw 5.86vw;
     }
 }
@@ -147,7 +156,8 @@ footer p {
     }
 
     footer a {
-        font-size: 2.99vw;
+        /* font-size: 2.99vw; */
+        font-size: 20px;
     }
 
     .footer-suggestions-wrapper img {
