@@ -107,6 +107,10 @@
         display: initial;
     }
 
+    .main-menu-mobile:hover {
+        transform: rotate(90deg);
+    }
+
     .main-menu-mobile img {
         width: 9.38vw;
     }

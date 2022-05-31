@@ -4,6 +4,9 @@
 /* HEADER */
 .header-wrapper {
     background-color: white;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
 }
 
 .header-wrapper header {
@@ -102,6 +105,10 @@
 
     .main-menu-mobile {
         display: initial;
+    }
+
+    .main-menu-mobile:hover {
+        transform: rotate(90deg);
     }
 
     .main-menu-mobile img {
