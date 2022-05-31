@@ -24,7 +24,7 @@ main>* {
     padding: 0 3.13%;
 }
 
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 1279px) {
     main>* {
         padding: 0 3.91%;
     }
@@ -46,7 +46,7 @@ p {
     line-height: 160%;
 }
 
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 1279px) {
     h2 {
         font-size: 4.56vw;
         /* font-size: 35px; */
@@ -59,7 +59,7 @@ p {
     }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 767px) {
     h2 {
         /* font-size: 25px; */
         font-size: 7.81vw;
@@ -92,7 +92,7 @@ p {
     background-color: #FDDCC4;
 }
 
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 1279px) {
     .btn-default {
         font-size: 2.21vw;
         /* font-size: 17px; */
@@ -100,7 +100,7 @@ p {
     }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 767px) {
     .btn-default {
         /* font-size: 17px; */
         font-size: 5.31vw;
@@ -160,7 +160,7 @@ footer p {
     align-self: flex-end;
 }
 
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 1279px) {
     footer {
         padding-top: 2px;
         flex-wrap: wrap;
@@ -191,7 +191,7 @@ footer p {
     }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 767px) {
     footer {
         padding-top: 11px;
     }

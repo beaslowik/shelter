@@ -67,7 +67,7 @@
     background-size: 100% 3px;
 }
 
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 1279px) {
     .header-wrapper header {
         padding-top: 11px;
     }
@@ -95,7 +95,7 @@
 
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 767px) {
     .main-menu {
         display: none;
     }
@@ -192,7 +192,7 @@
     cursor: pointer;
 }
 
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 1279px) {
 
     #freddie,
     #scarlet {
@@ -220,7 +220,7 @@
     }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 767px) {
     .our-friends {
         padding-top: 18px;
     }
@@ -294,7 +294,7 @@
     cursor: pointer;
 }
 
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 1279px) {
 
     .our-friends-pagination {
         margin-top: 38px;
@@ -316,7 +316,7 @@
     }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 767px) {
 
     #sophia,
     #timmy,
@@ -336,7 +336,9 @@
     }
 
     .pagination-element {
+        font-size: 6vw;
         height: 16.15vw;
+        border-radius: 20vw;
         width: 16.15vw;
     }
 

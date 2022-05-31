@@ -69,7 +69,7 @@
     margin-left: 0.2vw;
 }
 
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 1279px) {
     .header-wrapper header {
         padding-top: 11px;
         justify-content: flex-start;
@@ -98,7 +98,7 @@
     }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 767px) {
     .main-menu {
         display: none;
     }
@@ -171,7 +171,7 @@
     width: 55vw;
 }
 
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 1279px) {
     .not-only {
         flex-direction: column;
         align-items: center;
@@ -213,7 +213,7 @@
     }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 767px) {
     .not-only h2 {
         text-align: center;
         /* font-size: 25px; */
@@ -282,7 +282,7 @@
     line-height: 1.3em;
 }
 
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 1279px) {
     .about {
         grid-template-areas: " about-text "" about-picture ";
         grid-template-columns: 1fr;
@@ -302,7 +302,7 @@
     }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 767px) {
     .about {
         padding-top: 22px;
         padding-bottom: 73px;
@@ -444,7 +444,7 @@
     margin: 62px 0 0 0;
 }
 
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 1279px) {
     #woody {
         display: none;
     }
@@ -497,7 +497,7 @@
     }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 767px) {
     #jenifer {
         display: none;
     }
@@ -533,7 +533,7 @@
     .arrow-right {
         height: 16.25vw;
         width: 16.25vw;
-        border-radius: 52px;
+        border-radius: 100px;
         position: relative;
         top: 22px;
     }
@@ -602,7 +602,7 @@
     text-align: center;
 }
 
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 1279px) {
     .help {
         padding-bottom: 102px;
     }
@@ -628,7 +628,7 @@
     }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 767px) {
     .help {
         padding-top: 22px;
         padding-bottom: 48px;
@@ -739,7 +739,7 @@
     color: #B2B2B2;
 }
 
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 1279px) {
     .in-addition {
         padding-top: 47px;
         padding-bottom: 148px;
@@ -784,7 +784,7 @@
     }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 767px) {
     .in-addition {
         padding-top: 22px;
         padding-bottom: 68px;
