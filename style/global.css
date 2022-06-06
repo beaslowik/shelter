@@ -107,6 +107,12 @@ p {
     }
 }
 
+/* MOBILE MENU */
+.turn {
+    transform: rotate(90deg);
+}
+
+
 /* FOOTER */
 footer {
     padding-top: 27px;

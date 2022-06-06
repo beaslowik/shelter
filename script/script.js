@@ -1,10 +1,12 @@
-//  COVER BODY 
+const body = document.querySelector('body');
 const hamburgerButton = document.querySelector('.hamburger-button');
+const mobileMenu = document.querySelector('.mobile-menu');
 const menuItem = document.querySelectorAll('.menu-item');
 const mobileLogo = document.querySelector('h1');
 
 mobileLogo.addEventListener('click', coverBody);
 mobileLogo.addEventListener('click', showHideMenu);
+mobileLogo.addEventListener('click', rotateHamburger);
 
 hamburgerButton.addEventListener('click', coverBody);
 hamburgerButton.addEventListener('click', showHideMenu);
@@ -12,11 +14,11 @@ hamburgerButton.addEventListener('click', showHideMenu);
 menuItem.forEach(function(item) {
     item.addEventListener('click', coverBody);
     item.addEventListener('click', showHideMenu);
+    item.addEventListener('click', rotateHamburger);
 })
 
-
-function coverBody(params) {
-    const body = document.querySelector('body');
+//  COVER BODY 
+function coverBody() {
     if (body.classList.contains('cover-body')) {
         body.classList.remove('cover-body');
     } else {
@@ -25,32 +27,13 @@ function coverBody(params) {
 }
 
 // SHOW HIDE MOBILE MENU
-const mobileMenu = document.querySelector('.mobile-menu');
-
 function showHideMenu() {
-    if (mobileMenu.classList.contains('hide')) {
-        mobileMenu.classList.remove('hide');
-    } else {
-        mobileMenu.classList.add('hide');
-    }
+    mobileMenu.classList.toggle('hide');
 }
-let counter = 0;
-hamburgerButton.addEventListener('click', () => {
-    counter++;
-    var deg = counter * 90;
-    hamburgerButton.style.transform = "rotate(" + deg + "deg)";
-});
 
+// ROTATE HAMBURGER 
+hamburgerButton.addEventListener('click', rotateHamburger);
 
-// =============================================
-// const popups = [...document.getElementsByClassName('mobile-menu')];
-// window.addEventListener('click', ({
-//     target
-// }) => {
-//     const popup = target.closest('.mobile-menu');
-//     const clickedOnClosedPopup = popup && !popup.classList.contains('hide');
-
-//     popups.forEach(p => p.classList.remove('hide'));
-
-//     if (clickedOnClosedPopup) popup.classList.add('hide');
-// });
+function rotateHamburger() {
+    hamburgerButton.classList.toggle('turn');
+}
