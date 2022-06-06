@@ -108,10 +108,17 @@ p {
 }
 
 /* MOBILE MENU */
+.hide {
+    display: none;
+}
+
 .turn {
     transform: rotate(90deg);
 }
 
+.hamburger-button {
+    display: none;
+}
 
 /* FOOTER */
 footer {

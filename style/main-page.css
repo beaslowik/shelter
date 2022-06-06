@@ -8,15 +8,6 @@
 }
 
 /* HEADER */
-.hamburger-button {
-    display: none;
-}
-
-/* ======================= */
-.hide {
-    display: none;
-}
-
 .main-menu {
     list-style: none;
     display: grid;
@@ -136,6 +127,7 @@
     }
 
     .hamburger-button {
+        cursor: pointer;
         display: initial;
         z-index: 1;
         width: 30px;
