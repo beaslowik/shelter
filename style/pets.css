@@ -103,6 +103,11 @@
         display: none;
     }
 
+    .header-wrapper {
+        position: static;
+
+    }
+
     .header-wrapper header {
         align-items: center;
     }
