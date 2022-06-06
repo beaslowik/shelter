@@ -108,6 +108,37 @@ p {
 }
 
 /* MOBILE MENU */
+@keyframes slide-in {
+    100% {
+        transform: translateX(0%);
+    }
+}
+
+@keyframes slide-out {
+    0% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(0%);
+    }
+}
+
+.mobile-menu header {
+    transform: translateX(-100%);
+    animation: slide-out 1s forwards;
+    animation: slide-out 1s forwards;
+}
+
+.slide-in {
+    animation: slide-out 1s forwards;
+}
+
+.slide-out {
+    animation: slide-out 1s forwards;
+    1
+}
+
 .hide {
     display: none;
 }
