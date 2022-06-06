@@ -16,7 +16,7 @@
     align-items: baseline;
 }
 
-.main-menu-mobile {
+.hamburger-button {
     display: none;
 }
 
@@ -103,15 +103,15 @@
         display: none;
     }
 
-    .main-menu-mobile {
+    .hamburger-button {
         display: initial;
     }
 
-    .main-menu-mobile:hover {
+    .hamburger-button:hover {
         transform: rotate(90deg);
     }
 
-    .main-menu-mobile img {
+    .hamburger-button img {
         width: 9.38vw;
     }
 
